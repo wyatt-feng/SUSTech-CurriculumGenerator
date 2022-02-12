@@ -9,7 +9,7 @@
 
 ## 使用方式
 1. 首先在教务系统主界面左侧点击课表，下载xlsx格式课表。
-2. 若电脑存在[Python](https://www.python.org)环境及[openpyxl](https://openpyxl.readthedocs.io/en/stable/)，则下载[CurriculumGenerator](https://github.com/dazhi0619/CurriculumGenerator/tree/master/CurriculumGenerator)目录下的两个.py文件。
+2. 若电脑存在[Python](https://www.python.org)环境及[openpyxl](https://openpyxl.readthedocs.io/en/stable/)，则下载[CurriculumGenerator](https://github.com/dazhi0619/CurriculumGenerator)目录下的两个.py文件。
    如果您不知道我在说什么，请[在此处](https://github.com/dazhi0619/CurriculumGenerator/releases/)下载打包好的可执行文件。
 3. 运行
    ```

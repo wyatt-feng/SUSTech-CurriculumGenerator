@@ -1,21 +1,21 @@
-# SUSTech iCal�α����ɹ���
+# SUSTech iCal课表生成工具
 
-����ű����԰���Ѵ�[�Ͽƴ����ϵͳ](https://tis.sustech.edu.cn)���ص�xlsx��ʽ�Ŀα�ת��Ϊ���Ե�����������ͨ�õ�iCal��.ics����ʽ�Ŀα���
+这个脚本可以帮你把从[南科大教务系统](https://tis.sustech.edu.cn)下载的xlsx格式的课表转化为可以导入日历软件通用的iCal（.ics）格式的课表。
 
-## ΪʲôҪ����iCal��ʽ�α�
-���Ե����豸�Դ������������Ӷ���ϵͳ������ϣ���������ϲ�ռ��ϵͳ��Դʵ�����ѹ��ܣ���ͨ��Siri���������ֹ����γ̰��š�
-![����Siri](images/Siri-Integration.png)
+## 为什么要生成iCal格式课表
+可以导入设备自带日历软件，从而与系统深度整合，例如基本上不占用系统资源实现提醒功能，或通过Siri等语音助手管理课程安排。
+<img src="images/Siri-Integration.png" width = "30%" />
 
-## ʹ�÷�ʽ
-1. �����ڽ���ϵͳ������������α�������xlsx��ʽ�α���
-2. �����Դ���[Python](https://www.python.org)������[openpyxl](https://openpyxl.readthedocs.io/en/stable/)��������[CurriculumGenerator](https://github.com/dazhi0619/CurriculumGenerator/tree/master/CurriculumGenerator)Ŀ¼�µ�����.py�ļ���
-   �������֪������˵ʲô����[�ڴ˴�](https://github.com/dazhi0619/CurriculumGenerator/releases/)���ش���õĿ�ִ���ļ���
-3. ����
+## 使用方式
+1. 首先在教务系统主界面左侧点击课表，下载xlsx格式课表。
+2. 若电脑存在[Python](https://www.python.org)环境及[openpyxl](https://openpyxl.readthedocs.io/en/stable/)，则下载[CurriculumGenerator](https://github.com/dazhi0619/CurriculumGenerator/tree/master/CurriculumGenerator)目录下的两个.py文件。
+   如果您不知道我在说什么，请[在此处](https://github.com/dazhi0619/CurriculumGenerator/releases/)下载打包好的可执行文件。
+3. 运行
    ```
-   python3 CurriculumGenerator.py <xlsx�α��ļ���> <ѧ�ڿ�ʼ����> <ѧ�ڽ�������>
+   python3 CurriculumGenerator.py <xlsx课表文件名> <学期开始日期> <学期结束日期>
    ```
-   �������ص��ǿ�ִ���ļ������������ļ����а�סshift�Ҽ������ļ��пհ״���ѡ���ڴ˴���powershell���ڡ����ڵ����Ĵ���������
+   若您下载的是可执行文件，请在下载文件夹中按住shift右键单击文件夹空白处，选择“在此处打开powershell窗口”，在弹出的窗口中输入
    ```
-   .\CurriculumGenerator <xlsx�α��ļ���> <ѧ�ڿ�ʼ����> <ѧ�ڽ�������>
+   .\CurriculumGenerator <xlsx课表文件名> <学期开始日期> <学期结束日期>
    ```
-4. �����ɺõ�`�α�.ics`��������������ͨ�������ֱ�Ӵ򿪼��ɡ�����iPhone��iPad���뽫���ļ�AirDrop�������豸�ϣ����跨ͨ��Safari������򿪴��ļ���
+4. 将生成好的`课表.ics`导入日历软件。通常情况下直接打开即可。对于iPhone和iPad，请将此文件AirDrop到您的设备上，或设法通过Safari浏览器打开此文件。

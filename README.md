@@ -5,7 +5,7 @@
 ## 为什么要生成iCal格式课表
 可以导入设备自带日历软件，从而与系统深度整合，例如基本上不占用系统资源实现提醒功能，或通过Siri等语音助手管理课程安排。
 
-<img src="images/Siri-Integration.png" width = "30%" />
+<img src="images/Siri-Integration.png" width = "50%" />
 
 ## 使用方式
 1. 首先在教务系统主界面左侧点击课表，下载xlsx格式课表。

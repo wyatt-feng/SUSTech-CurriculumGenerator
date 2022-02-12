@@ -10,7 +10,7 @@
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>CurriculumGenerator</Name>
+    <Name>SUSTech-CurriculumGenerator</Name>
     <RootNamespace>CurriculumGenerator</RootNamespace>
     <LaunchProvider>Standard Python launcher</LaunchProvider>
     <CommandLineArguments>export.xlsx 20220214 20220605</CommandLineArguments>

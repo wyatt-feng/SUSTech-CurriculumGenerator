@@ -22,4 +22,4 @@
 4. 将生成好的`课表.ics`导入日历软件。通常情况下直接打开即可。对于iPhone和iPad，请将此文件AirDrop到您的设备上，或设法通过Safari浏览器打开此文件。
 
 ## 致谢
-本项目部分使用了@zhongbr的(代码)[https://www.cnblogs.com/zhongbr/p/python_calender.html]，在此表示感谢。
+本项目部分使用了@zhongbr的[代码](https://www.cnblogs.com/zhongbr/p/python_calender.html)，在此表示感谢。
